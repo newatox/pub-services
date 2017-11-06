@@ -4,7 +4,7 @@ var myJson = require('../mocks/pubs.json');
 function getPubList() {
     var myPubList = [];
     for (var i = 0; i < myJson.length; ++i) {
-        myPubList += myJson[i].name;
+        myPubList.push(myJson[i].name);
     }
     return myPubList;
 }
@@ -21,7 +21,7 @@ function getOpenPubList() {
             openDays = myJson[i].openDays;
             for (var j = 0; j < openDays.length; ++j) {
                 if (openDays[j] === currentDate.format('dddd')) {
-                    myOpenPubList += myJson[i].name;
+                    myOpenPubList.push(myJson[i].name);
                 }
             }
         } else if(start >= end) {
@@ -29,7 +29,7 @@ function getOpenPubList() {
             const yesterday = currentDate.subtract(end, 'h').format('dddd');
             for (var k = 0; k < openDays.length; ++k) {
                 if (openDays[k] === yesterday) {
-                    myOpenPubList += myJson[i].name;
+                    myOpenPubList.push(myJson[i].name);
                 }
             }
         }
