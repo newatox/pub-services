@@ -25,22 +25,22 @@
     ]
   },
   {
-    "name": "MyLittlePony",
+    "name": "La Taverne",
     "owner": {
       "firsname": "Arnaud",
       "lastName": "Ringenbach",
       "mail": "arn.ringenbach@gmail.com"
     },
     "openDays": [
-      "Sunday",
+      "Monday",
       "Wednesday",
       "Thursday",
       "Friday",
       "Saturday"
     ],
     "openHours": {
-      "start": 22,
-      "end": 15
+      "start": 10,
+      "end": 2
     },
     "beers": [
       {
