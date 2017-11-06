@@ -32,15 +32,15 @@
       "mail": "arn.ringenbach@gmail.com"
     },
     "openDays": [
-      "Monday",
+      "Sunday",
       "Wednesday",
       "Thursday",
       "Friday",
       "Saturday"
     ],
     "openHours": {
-      "start": 11,
-      "end": 1
+      "start": 22,
+      "end": 15
     },
     "beers": [
       {
